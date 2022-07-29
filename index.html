@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanz store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      .card:hover {
+        box-shadow: 3px 3px 3px 3px grey;
+      }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#" style="margin-right: 50px; display:inline-block;">Yanz store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      opsi
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Daftar</a></li>
+                      <li><a class="dropdown-item" href="#">Masuk</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Keranjang
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                              </svg>
+                      </a></li>
+                    </ul>
+                  </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari di Yanz store" aria-label="Search" style="width: 300px;">
+              <button class="btn btn-primary" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- end header -->
+
+    <!-- carousel -->
+    <br><br>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="img/courcel 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/courcel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="img/courcel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    <!-- end carousel -->
+
+    <!-- kategori -->
+    <h1 class="mt-4 mb-2 text-center fs-3">kategori</h1>
+    <div class="row d-flex justify-content-center">
+      <div class="card m-2" style="width: 14rem;">
+        <img src="img/baju.png" class="card-img-top" alt="kategori baju" height="150px">
+        <div class="card-body">
+          <p class="card-text fs-5">Baju</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 14rem;">
+        <img src="img/celana.jpg" class="card-img-top" alt="kategori baju" height="150px">
+        <div class="card-body">
+          <p class="card-text fs-5">Celana</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 14rem;">
+        <img src="img/sep.jpg" class="card-img-top" alt="kategori baju" height="150px">
+        <div class="card-body">
+          <p class="card-text fs-5">Sepatu</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 14rem;">
+        <img src="img/selektronik.jpg" class="card-img-top" alt="kategori baju" height="150px">
+        <div class="card-body">
+          <p class="card-text fs-5">Elektronik</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 14rem;">
+        <img src="img/gad.jpg" class="card-img-top" alt="kategori baju" height="150px">
+        <div class="card-body">
+          <p class="card-text fs-5">Gadget</p>
+        </div>
+      </div>
+    </div>
+    <!-- end kategori -->
+
+
+    <!-- flase sale -->
+    <h1 class="mt-4 text-center fs-3">Flash sale <p id="carasingkat" class="text-danger fs-5"></p></h1>
+    <div class="row justify-content-center d-flex">
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/sepatu.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Sepatu Sneker</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.50000</p>
+          <p class="card-text text-danger">Rp.15000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/sep2.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Sepatu adidas</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.80000</p>
+          <p class="card-text text-danger">Rp.40000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/jeans.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Celana jeans Laki-laki</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.55000</p>
+          <p class="card-text text-danger">Rp.35000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/lepis.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Celana Lepis</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.100000</p>
+          <p class="card-text text-danger">Rp.30000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/laptop.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Laptop Asus ROG</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.4.000.000</p>
+          <p class="card-text text-danger">Rp.3.000.000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/hp.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Handphone Poco</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.5.000.000</p>
+          <p class="card-text text-danger">Rp.4.000.000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/kulkas.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">Kulkas 2 pintu Sharp</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.7.000.000</p>
+          <p class="card-text text-danger">Rp.5.000.000</p>
+        </a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <a href="" style="text-decoration: none;">
+        <img src="img/TV.jpg" class="card-img-top p-2" height="150px">
+        <div class="card-body">
+          <h5 class="card-title text-dark">TV samsung</h5>
+          <p class="car-text text-dark" style="text-decoration:line-through;">Rp.6.000.000</p>
+          <p class="card-text text-danger">Rp.3.000.000</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    <!-- end flase sale -->
+
+
+
+   
+<!-- countdown timer -->
+<script>
+// Silahkan anda atur tanggal anda
+var countDownDate = new Date("Sep 1, 2022 15:37:25").getTime();
+// Hitungan Mundur Waktu Dilakukan Setiap Satu Detik
+var x = setInterval(function() {
+  // Mendapatkan Tanggal dan waktu Pada Hari ini
+  var now = new Date().getTime();
+  //Jarak Waktu Antara Hitungan Mundur
+  var distance = countDownDate - now;
+  // Perhitungan waktu hari, jam, menit dan detik
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Tampilkan hasilnya di elemen id = "carasingkat"
+  document.getElementById("carasingkat").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  // Jika hitungan mundur selesai,
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("Carasingkat").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
